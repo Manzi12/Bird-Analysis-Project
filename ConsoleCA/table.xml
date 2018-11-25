@@ -1,0 +1,26 @@
+<object-stream>
+  <Table>
+    <tableNumber>10</tableNumber>
+    <numberOfSeats>10</numberOfSeats>
+    <book>
+      <head>
+        <nameOfPerson>ewan</nameOfPerson>
+        <totalNumberOfPeople>10</totalNumberOfPeople>
+        <tableNumberBooked>10</tableNumberBooked>
+        <time>18</time>
+        <numberOfHoursBooked>1</numberOfHoursBooked>
+        <bookingId>100</bookingId>
+        <pList>
+          <head>
+            <quantity>10</quantity>
+            <item>
+              <menuItem>pizza</menuItem>
+              <itemPrice>10</itemPrice>
+            </item>
+          </head>
+          <theBooking reference="../.."/>
+        </pList>
+      </head>
+    </book>
+  </Table>
+</object-stream>
